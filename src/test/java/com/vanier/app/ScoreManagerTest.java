@@ -29,4 +29,12 @@ public class ScoreManagerTest {
         assertEquals("True." ,passed);
     }
 
+    @Test
+    public void passingScoreWithChaoChao()
+    {
+        String passed = ScoreManager.passingScore(10);        
+        assertEquals("True." ,passed);
+    }
+
+
 }
