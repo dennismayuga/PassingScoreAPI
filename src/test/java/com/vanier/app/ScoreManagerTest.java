@@ -22,6 +22,7 @@ public class ScoreManagerTest {
         assertEquals("True." ,passed);
     }
 
+    // This is for the test
     @Test
     public void passingScoreWith10()
     {
