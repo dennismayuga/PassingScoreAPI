@@ -23,6 +23,8 @@ public class ScoreManagerTest {
     }
 
     // This is for the test
+
+    //This is a second test 
     @Test
     public void passingScoreWith10()
     {
