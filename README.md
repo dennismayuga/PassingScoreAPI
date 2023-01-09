@@ -7,4 +7,9 @@ the method will return true and if not false will be returned.
 Exceptions thrown will be caught through numberFormatException and displayed an error message as well as
 display error in the returning string.
 
+GROUP MEMBERS:
+Mayuga, Dennis
+Murmu, Snehalata
+Magda, Alexandra
+Qiu, Chaohao
 
