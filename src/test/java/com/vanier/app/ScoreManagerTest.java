@@ -29,4 +29,24 @@ public class ScoreManagerTest {
         assertEquals("True." ,passed);
     }
 
+    @Test
+    public void testPassingScore3()
+    {
+    String passed = ScoreManager.passingScore(5);
+    assertEquals("False.", passed);
+    }
+
+    @Test
+    public void testPassingScore8(){
+    String passed = ScoreManager.passingScore(8);
+    assertEquals("True.", passed);
+    }
+
+    @Test
+    public void testMainException()throws Exception{
+        String[] args = new String[] {"a"};
+        ScoreManager.execute(args);
+    }
+
+
 }
